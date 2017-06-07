@@ -191,6 +191,9 @@
                         </subviews>
                         <color key="backgroundColor" red="0.42060597179999998" green="1" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="LoadTableView" destination="vgo-yc-Mci" id="fuV-g9-WDs"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zgv-lw-u3V" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

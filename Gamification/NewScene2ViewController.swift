@@ -41,7 +41,11 @@ class NewScene2ViewController: UIViewController {
         let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
         
         let gamename = GameName(context: context)
-        gamename.name = InsertName
+        gamename.name = InsertName2.text!
+        
+        (UIApplication.shared.delegate as! AppDelegate).saveContext()
+        
+        navigationController!.popViewController(animated: true)
         
         
         
