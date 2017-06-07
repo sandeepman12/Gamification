@@ -8,30 +8,13 @@
 
 import UIKit
 
-class LoadSceneViewController: UIViewController {
-
-    override func viewDidLoad() {
+class LoadSceneViewController: UIViewController
+{
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
 
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
