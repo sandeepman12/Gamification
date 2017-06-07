@@ -8,31 +8,30 @@
 
 import UIKit
 
-class NewScene2ViewController: UIViewController {
-
-    override func viewDidLoad() {
+class NewScene2ViewController: UIViewController
+{
+    @IBOutlet weak var InsertName2: UITextField!
+    @IBOutlet weak var InsertDescription: UITextField!
+    
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
 
-    @IBOutlet weak var InsertName2: UITextField!
-    
-    
-    @IBAction func InsertName(_ sender: UITextField) {
+    @IBAction func InsertName(_ sender: UITextField)
+    {
             InsertName2.resignFirstResponder()
-        }
+    }
     
-    
-    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?)
+    {
         view.endEditing(true)
     }
     
-    
-    @IBOutlet weak var InsertDescription: UITextField!
-    
-    
-    @IBAction func InsertDescription2(_ sender: UITextField) {
+    @IBAction func InsertDescription2(_ sender: UITextField)
+    {
             InsertDescription.resignFirstResponder()
     }
     
