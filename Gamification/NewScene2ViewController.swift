@@ -36,6 +36,16 @@ class NewScene2ViewController: UIViewController {
             InsertDescription.resignFirstResponder()
     }
     
+    @IBAction func btnNext(_ sender: Any) {
+    
+        let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+        
+        let gamename = GameName(context: context)
+        gamename.name = InsertName
+        
+        
+        
+    }
     
     
     

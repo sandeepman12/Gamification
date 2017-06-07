@@ -147,6 +147,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Next"/>
                                 <connections>
+                                    <action selector="btnNext:" destination="3hx-Qo-dBv" eventType="touchUpInside" id="b8S-zT-Dxu"/>
                                     <segue destination="Vke-aG-u2U" kind="show" id="mnT-7N-WVq"/>
                                 </connections>
                             </button>

@@ -14,6 +14,7 @@
 		B24056B81EE6EE7A0031B874 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B24056B61EE6EE7A0031B874 /* LaunchScreen.storyboard */; };
 		B24056C71EE715CA0031B874 /* NewScene2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24056C61EE715CA0031B874 /* NewScene2ViewController.swift */; };
 		B24056CB1EE734B00031B874 /* LoadSceneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24056CA1EE734B00031B874 /* LoadSceneViewController.swift */; };
+		B24056F21EE854320031B874 /* Gamification.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B24056F01EE854320031B874 /* Gamification.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		B24056B91EE6EE7A0031B874 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B24056C61EE715CA0031B874 /* NewScene2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewScene2ViewController.swift; sourceTree = "<group>"; };
 		B24056CA1EE734B00031B874 /* LoadSceneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadSceneViewController.swift; sourceTree = "<group>"; };
+		B24056F11EE854320031B874 /* Gamification.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Gamification.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				B24056B41EE6EE7A0031B874 /* Assets.xcassets */,
 				B24056B61EE6EE7A0031B874 /* LaunchScreen.storyboard */,
 				B24056B91EE6EE7A0031B874 /* Info.plist */,
+				B24056F01EE854320031B874 /* Gamification.xcdatamodeld */,
 			);
 			path = Gamification;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B24056B01EE6EE7A0031B874 /* ViewController.swift in Sources */,
+				B24056F21EE854320031B874 /* Gamification.xcdatamodeld in Sources */,
 				B24056CB1EE734B00031B874 /* LoadSceneViewController.swift in Sources */,
 				B24056C71EE715CA0031B874 /* NewScene2ViewController.swift in Sources */,
 				B24056AE1EE6EE7A0031B874 /* AppDelegate.swift in Sources */,
@@ -314,6 +318,19 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B24056F01EE854320031B874 /* Gamification.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B24056F11EE854320031B874 /* Gamification.xcdatamodel */,
+			);
+			currentVersion = B24056F11EE854320031B874 /* Gamification.xcdatamodel */;
+			path = Gamification.xcdatamodeld;
+			sourceTree = SOURCE_ROOT;
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = B24056A21EE6EE7A0031B874 /* Project object */;
 }
