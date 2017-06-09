@@ -35,7 +35,8 @@ class NewScene2ViewController: UIViewController
             InsertDescription.resignFirstResponder()
     }
     
-    @IBAction func btnNext(_ sender: Any) {
+    @IBAction func btnNext(_ sender: Any)
+    {
     
         let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
         
@@ -45,18 +46,5 @@ class NewScene2ViewController: UIViewController
         (UIApplication.shared.delegate as! AppDelegate).saveContext()
         
         navigationController!.popViewController(animated: true)
-        
-        
-        
-    }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    }		    
 }
